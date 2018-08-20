@@ -1,3 +1,3 @@
 defmodule UA.Device do
-  defstruct name: :unknown, brand: :unknown, model: :unknown
+  defstruct family: "Other", brand: nil, model: nil
 end

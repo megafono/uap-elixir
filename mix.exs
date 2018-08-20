@@ -30,7 +30,9 @@ defmodule UserAgentParser.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:yaml_elixir, "~> 2.1.0"},
+    ]
   end
 
   defp description do

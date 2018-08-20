@@ -1,3 +1,3 @@
 defmodule UA.OS do
-  defstruct family: :unknown, version: :unknown
+  defstruct family: "Other", major: nil, minor: nil, patch: nil, patch_minor: nil
 end
